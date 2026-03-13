@@ -5,7 +5,7 @@ https://www.a1k0n.net/2011/07/20/donut-math.html
 https://www.youtube.com/watch?v=sW9npZVpiMI&t=6s
 
 ### Descrição:
-É um Donut girando e um Donut em forma de Donut girando (não está igual a referência pois resecrevi do meu jeito).
+É um Donut girando e um Donut em forma de Donut girando (não está igual a referência pois reescrevi do meu jeito).
 
 ```
                               $@@@@@@@@$$$                                     
