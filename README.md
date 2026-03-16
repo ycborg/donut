@@ -14,9 +14,9 @@ Rather than just running the code, I used this project to study:
 * **Code Obfuscation:** The `donutindonut.c` version explores how C source code can be formatted into shapes, a classic exercise in the C community.
 
 ### 💻 How to run
-1. **Compile** the standard version:
+1. **Compile** using the provided Makefile:
    ```bash
-   gcc donut.c -o donut -lm
+   make all
 
 2. **Run** the executable:
    ```bash
