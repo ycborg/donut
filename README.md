@@ -1,33 +1,26 @@
-# Donut
+# Donut Math: Exploring 3D Rendering (C)
 
-### Créditos:
-https://www.a1k0n.net/2011/07/20/donut-math.html
-https://www.youtube.com/watch?v=sW9npZVpiMI&t=6s
+### 🎓 Context
+This project is a personal implementation and study of the famous "Donut" algorithm by Andy Sloane. My goal was to explore the intersection of **Mathematics and Programming**, observing how trigonometric functions can be used to render 3D shapes in a terminal.
 
-### Descrição:
-É um Donut girando e um Donut em forma de Donut girando (não está igual a referência pois reescrevi do meu jeito).
+### 🚀 Learning Process
+Rather than just running the code, I used this project to study:
+* **The Concept of Shading:** How a simple string of characters (`.,-~:;=!*#$@`) can simulate light intensity (Luminance).
+* **Terminal Manipulation:** Learning about ASCII escape codes to refresh the screen and create animation frames.
+* **Math in Practice:** Seeing how Sine and Cosine translate into movement and depth in a 2D space.
 
-```
-                              $@@@@@@@@$$$                                     
-                          $$@$$$$$$##########$                                 
-                        $$$$$$###***!!!!!!!!***##                              
-                      #$$$$####**!!!!!=;===!!!!!***                            
-                    *#$$#####**!!==;;::~~~::;==!!!**                           
-                   *#######**!!==;:~~-,,,,,-~::==!!**                          
-                  =*######***!==;:~,........,-~;;=!!!!                         
-                  !**###****!!=;:~,.........,,~;;=!!*!=                        
-                  !*********!!=;:-..      ...-~;=!!!**!                        
-                 ;!!*******!!!=;:~.        .,~;!******!                        
-                 ;!!!*******!!===:~        ,;!*#####**!:                       
-                  =!!!******!!!===;:       !*#$$$$$##*=~                       
-                  ;=!!!!!!**!!!!!!!==== !*#$$@@@$$$#*!=                        
-                  :;==!!!!!!!!!!!*!****##$$$@@@@$$#*!=:                        
-                   :;==!!!!!!!!*******###$$$$$$$$#*!!;                         
-                    ~;;===!!!!!!!*****#####$####**!!;.                         
-                     -::;;====!!!!!!**********!*!!=:                           
-                       ~~:;;;====!!!!!!!!!!!!!!!;:-                            
-                         ,~~::;;;;==========;;:~,                              
-                            .,-~~:~::::::::~-.           
-```
-### Como usar?
-Primeiramente, crie o executável do código com a ajuda do 'makefile'; basta digitar no terminal 'make all'. Em seguida, digite './donut' no terminal.
+### 🛠️ Technical Highlights
+* **Z-Buffer Concept:** Understanding how the code tracks the depth of each "pixel" to determine what should be visible.
+* **Code Obfuscation:** The `donutindonut.c` version explores how C source code can be formatted into shapes, a classic exercise in the C community.
+
+### 💻 How to run
+1. **Compile** the standard version:
+   ```bash
+   gcc donut.c -o donut -lm
+
+2. **Run** the executable:
+   ```bash
+   ./donut
+
+### 🔗 Credits
+* Original algorithm and mathematical explanation by Andy Sloane (a1k0n).
